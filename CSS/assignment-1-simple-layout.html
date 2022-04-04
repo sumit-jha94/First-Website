@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple Layout">
+    <title>Simple Layout</title>
+    <style type="text/css">
+    /* making backgound directly in BODY */
+    body{
+        background-color: rgb(114, 114, 241);
+        text-align: center;
+        color: white;
+    }
+    /* applied common properties to required section */
+    header, nav, section, footer{
+        border: 10px, solid, white;
+        border-color: white;
+        border-style: solid;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        padding: 20px;
+    }
+    nav, section, footer {
+        float: left;
+    }
+    /* this line helped in height  */
+    nav, section{
+        padding: 180px 0;
+    }
+    .container{
+        width: 1240px;
+        margin: auto 0;
+    }
+    nav{
+        width: 260px;
+        margin-right: 10px;
+    }
+    section{
+        width: 960px;
+    }
+    footer{
+        width: 1240px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Project 1 : Simple Layout</h1>
+        
+        <header> Header </header>
+        <nav>NAV </nav>
+        <Section> SECTION </Section>
+        <footer> FOOTER </footer>
+    </div>
+</body>
+</html>

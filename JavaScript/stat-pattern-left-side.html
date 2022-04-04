@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Star Pattern Left Side">
+    <title>Star Pattern Left Side</title>
+</head>
+<body>
+    <script>
+        let n = prompt('Enter The No.'); // you can take input from prompt or change the value
+        let string = "";
+        for (let i = 1; i <= n; i++) {
+        // printing spaces
+        for (let j = 0; j < n - i; j++) {
+            string += " ";
+        }
+        // printing star
+        for (let k = 0; k < i; k++) {
+            string += "*";
+        }
+        string += "\n";
+}
+console.log(string);
+    </script>
+    
+</body>
+</html>

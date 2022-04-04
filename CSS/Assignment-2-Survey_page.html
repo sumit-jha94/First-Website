@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Survey Page">
+    <title>Survey Page</title>
+    <style type="text/css">
+    body{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        font-weight: bold;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: yellowgreen;
+    }
+    section p {
+        max-width: 700px;
+        margin: 2em auto;
+        line-height: 1.56;
+    }
+    form input[type="text"]{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <Header class="header"> <h1>SURVEY.COM</h1></Header>
+        <H2>Submit Your Survey Today!</H2>
+        <section class="sec">
+            <form action="#" method="GET">
+                <!-- selection form for name -->
+                <p>
+                    <label for="text">Your Name</label>
+                    <input type="text" name="" id="">
+                    <!-- Selection form for Email Id -->
+                    <label for="text">Your Email Id</label> 
+                    <input type="text" name="" id=""> 
+                </p>
+                <!-- Selction for for select -->
+                <p> <label for="select">Select</label>
+                    <select name="" id="">
+                        <optgroup label="Option Group 1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </optgroup>
+                    
+                        <optgroup label="Option Group 2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </optgroup>
+                    </select>
+                </p>
+                <!-- checkbox Element -->
+                <p>
+                <label for="schoolbus">checkbox 1</label>
+                <input type="checkbox" name="" id="" checked>
+                <label for="schoollunch">Checkbox 2</label>
+                <input type="checkbox" name="" id="">
+                <label for="hostelfaility">Checkbox box 3</label>
+                <input type="checkbox" name="" id="">
+                </p>
+                <p>
+                    <input type="submit" value="Submit"> <input type="reset" value="Clear">
+                </p>
+            </form>
+        </section>
+        <footer class="footer">
+           Copyright &#169 <a href="#" target="_blank" rel="noopener noreferrer">YourSite.com</a>
+        </footer>
+
+
+    </div>
+
+    
+</body>
+</html>
